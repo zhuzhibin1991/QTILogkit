@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WingtechLog</string>
+    <string name="ap_log_start">catch AP Log</string>
+    <string name="ap_log_stop">AP log catching...</string>
+    <string name="md_log_start">catch Modem Log</string>
+    <string name="md_log_stop">Modem log catching...</string>
+    <string name="save_logs">Save logs</string>
+    <string name="diag_confirm">Yes</string>
+    <string name="save_log">Save Log</string>
+    <string name="saveing">Saving Log...</string>
+    <string name="diag_negative">No</string>
+    <string name="diag_message">Check no diag config file,do you agree using default?(you can put your diag.cfg to /sdcard)</string>
+    <string name="ramdump_enable">RAMDUMP ENABLE</string>
+    <string name="ramdump_disable">RAMDUMP DISABLE</string>
+    <string name="tcpdump_start">tcpdump</string>
+    <string name="tcpdump_stop">tcpdumping...</string>
+    <string name="logupload_work">logupload active</string>
+    <string name="logupload_working">logupload de-active</string>
+    <string name="logupload_uninstall">UnInstall Report</string>
+</resources>

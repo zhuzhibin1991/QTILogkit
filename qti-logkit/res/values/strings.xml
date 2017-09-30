@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BadAPK">APK is bad.</string>
+    <string name="CrashModeHeading">Crash Mode</string>
+    <string name="StorageHeading">Storage</string>
+    <string name="LogSizeHeading">Log chunk size</string>
+    <string name="ModemHeading">Modem log format</string>
+    <string name="DeletedFilesHeading">Deleted files</string>
+    <string name="QshrinkHeading">Qshrink 4 database</string>
+    <string name="QSHCircHeading">QSH Circular buffer</string>
+    <string name="WarningsHeading">Tool Warnings</string>
+    <string name="AboutHeading">"About "</string>
+    <string name="PackageHeading">Package Details</string>
+    <string name="Connecting">Connecting to service</string>
+    <string name="HomeButton">Home</string>
+    <string name="ConfigureButton">Configure</string>
+    <string name="ManageButton">Manage</string>
+    <string name="DeviceGroupButton">Group</string>
+    <string name="GOTAButton">GOTA</string>
+    <string name="ExitButton">Exit</string>
+    <string name="Starting">Starting</string>
+    <string name="Stopping">Stopping</string>
+    <string name="Restoring">Restoring log session</string>
+    <string name="Scanning">Scanning packages</string>
+    <string name="SpaceAvailable">%1$s available</string>
+    <string name="Capturing">Capturing logs...</string>
+    <string name="Running">Running</string>
+    <string name="Stopped">Stopped</string>
+    <string name="RecentCaptures">Recent captures and events...</string>
+    <string name="SessionCapture">Session Capture</string>
+    <string name="InvalidStorage">"0 of 0 used
+Cannot access this storage location"</string>
+    <string name="StorageSpaceDialog">"Approximately
+ %1$s of %2$s used
+ %3$s full"</string>
+    <string name="StorageLocationHeading">Storage Location:</string>
+    <string name="LocationHeading">Location:</string>
+    <string name="Modem">Modem</string>
+    <string name="Android">Android</string>
+    <string name="Created">"Created: "</string>
+    <string name="Settings">Settings</string>
+    <string name="WarningSessionRunning">Stop session to modify log chunk size</string>
+    <string name="ModemWarningSessionRunning">Stop session to modify modem log format</string>
+    <string name="QshrinkWarningSessionRunning">Stop session to modify QShrink settings</string>
+    <string name="QSHWarningSessionRunning">Stop session to modify QSH settings</string>
+    <string name="LogkitVersion">"QTI-Logkit Version: %1$s
+Config Version: %2$s
+LKCore Version: %3$s
+Qualcomm Technologies, Inc."</string>
+    <string name="Version">"Version %1$s
+Qualcomm Technologies, Inc."</string>
+    <string name="RunCommand">Run Command</string>
+    <string name="RunningCommand">Running command</string>
+    <string name="NumChunks">%1$s chunks</string>
+    <string name="ExitMsg">"All sessions and logs will stop running. 
+
+To leave qti-logkit and keep sessions, logs or notifications running, use home button to minimize.
+
+"</string>
+    <string name="ExitAppTitle">Exit qti-logkit?</string>
+    <string name="ExitControllerMsg">"All uploads will stop. 
+
+To leave qti-logkit-controller, but keep all logging and uploads active, use home button to minimize.
+
+"</string>
+    <string name="ExitControllerAppTitle">Exit qti-logkit-controller?</string>
+    <string name="ExitAppButton">EXIT</string>
+    <string name="NoExitButton">DO NOT EXIT</string>
+    <string name="ZipProgress">%1$s of %2$s files zipped</string>
+    <string name="ContinueButton">CONTINUE</string>
+    <string name="PackageButton">PACKAGE</string>
+    <string name="Name">Name</string>
+    <string name="StorageLocation">Storage location</string>
+    <string name="Size">Size</string>
+    <string name="TimeElapsed">Time elapsed</string>
+    <string name="Description">Description</string>
+    <string name="PackageHint">Enter optional text here</string>
+    <string name="ProgressSpinnerTitle">Packaging in progress</string>
+    <string name="ProgressSpinnerPackaging">"Packaging: "</string>
+    <string name="ProgressSpinnerCreating">Creating package</string>
+    <string name="DiscardButton">DISCARD</string>
+    <string name="HideButton">HIDE</string>
+    <string name="ExitErrorButton">EXIT</string>
+    <string name="SubmitButton">SUBMIT</string>
+    <string name="RegStatusHeading">"Registration Status: "</string>
+    <string name="ZipButton">Zip</string>
+    <string name="ZippingSpinnerTitle">Zipping in progress</string>
+    <string name="ZippingSpinnerPackaging">"Zipping: "</string>
+    <string name="ActiveLogs">"Active Logs: "</string>
+    <string name="ActiveTriggers">"Active Triggers: "</string>
+    <string name="CurrentDeviceGroupHeading">"Current Device Group: "</string>
+    <string name="DeviceGroupPrompt">"Select New Device Group: "</string>
+    <string name="ConnectionInfoHeading">Uploader Information:</string>
+    <string name="ConnectionHeading">Connection:</string>
+    <string name="ThroughputHeading">Throughput:</string>
+    <string name="QueuedFilesHeading">Queued files:</string>
+    <string name="IncludeQshrink">Include in every package</string>
+    <string name="ExcludeQshrink">Exclude from packages</string>
+    <string name="ControlledMode">Client is in controlled mode</string>
+    <string name="LaunchController">Launch Controller</string>
+    <string name="Logkit">Logkit:</string>
+    <string name="Uploader">Uploader:</string>
+    <string name="Launch">Launch</string>
+    <string name="DiableControlled">Release control</string>
+    <string name="RunningTitle">Logging session is running</string>
+    <string name="RunningText">Tap for details, or press button to stop</string>
+    <string name="StoppedTitle">Logging session is stopped</string>
+    <string name="StoppedText">Tap for details, or press button to start</string>
+    <string name="Unsupported">" (Unsupported)"</string>
+    <string name="Flush">Flush</string>
+    <string name="Flushing">Flushing</string>
+    <string name="Enable">Enable</string>
+    <string name="Disable">Disable</string>
+    <string name="ChunkHint">During log session, all log chunks are saved</string>
+    <string name="None">None</string>
+    <string name="PkgZippingError">Error zipping files</string>
+    <string name="PkgDeleted">Deleted</string>
+    <string name="PkgCopyError">Error copying files</string>
+    <string name="PkgLocked">Externally locked</string>
+    <string name="PkgCreateError">Error creating Package.xml</string>
+    <string name="PkgModified">Externally modified</string>
+</resources>

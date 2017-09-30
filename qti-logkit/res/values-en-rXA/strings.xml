@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BadAPK">[ÅÞĶ îš ɓåð. one two]</string>
+    <string name="CrashModeHeading">[Çŕåšĥ Ḿöðé one two]</string>
+    <string name="StorageHeading">[Šţöŕåĝé one two]</string>
+    <string name="LogSizeHeading">[Ļöĝ çĥûñķ šîžé one two three]</string>
+    <string name="ModemHeading">[Ḿöðéḿ ļöĝ ƒöŕḿåţ one two three]</string>
+    <string name="DeletedFilesHeading">[Ðéļéţéð ƒîļéš one two three]</string>
+    <string name="QshrinkHeading">[qšĥŕîñķ 4 ðåţåɓåšé one two three]</string>
+    <string name="QSHCircHeading">[qŠĤ Çîŕçûļåŕ ɓûƒƒéŕ one two three]</string>
+    <string name="WarningsHeading">[Ţööļ Ŵåŕñîñĝš one two three]</string>
+    <string name="AboutHeading">"[Åɓöûţ  one two]"</string>
+    <string name="PackageHeading">[Þåçķåĝé Ðéţåîļš one two three]</string>
+    <string name="Connecting">[Çöññéçţîñĝ ţö šéŕVîçé one two three]</string>
+    <string name="HomeButton">[Ĥöḿé one two]</string>
+    <string name="ConfigureButton">[Çöñƒîĝûŕé one two]</string>
+    <string name="ManageButton">[Ḿåñåĝé one two]</string>
+    <string name="DeviceGroupButton">[Ĝŕöûþ one two]</string>
+    <string name="GOTAButton">[ĜÖŢÅ one two]</string>
+    <string name="ExitButton">[Éхîţ one two]</string>
+    <string name="Starting">[Šţåŕţîñĝ one two]</string>
+    <string name="Stopping">[Šţöþþîñĝ one two]</string>
+    <string name="Restoring">[Ŕéšţöŕîñĝ ļöĝ šéššîöñ one two three]</string>
+    <string name="Scanning">[Šçåññîñĝ þåçķåĝéš one two three]</string>
+    <string name="SpaceAvailable">[»%1$s« åVåîļåɓļé one two]</string>
+    <string name="Capturing">[Çåþţûŕîñĝ ļöĝš... one two three]</string>
+    <string name="Running">[Ŕûññîñĝ one two]</string>
+    <string name="Stopped">[Šţöþþéð one two]</string>
+    <string name="RecentCaptures">[Ŕéçéñţ çåþţûŕéš åñð éVéñţš... one two three four]</string>
+    <string name="SessionCapture">[Šéššîöñ Çåþţûŕé one two three]</string>
+    <string name="InvalidStorage">"[0 öƒ 0 ûšéð
+Çåññöţ åççéšš ţĥîš šţöŕåĝé ļöçåţîöñ one two three four five six]"</string>
+    <string name="StorageSpaceDialog">"[Åþþŕöхîḿåţéļý
+ »%1$s« öƒ »%2$s« ûšéð
+ »%3$s« ƒûļļ one two three four]"</string>
+    <string name="StorageLocationHeading">[Šţöŕåĝé Ļöçåţîöñ: one two three]</string>
+    <string name="LocationHeading">[Ļöçåţîöñ: one two]</string>
+    <string name="Modem">[Ḿöðéḿ one two]</string>
+    <string name="Android">[Åñðŕöîð one two]</string>
+    <string name="Created">"[Çŕéåţéð:  one two]"</string>
+    <string name="Settings">[Šéţţîñĝš one two]</string>
+    <string name="WarningSessionRunning">[Šţöþ šéššîöñ ţö ḿöðîƒý ļöĝ çĥûñķ šîžé one two three four five]</string>
+    <string name="ModemWarningSessionRunning">[Šţöþ šéššîöñ ţö ḿöðîƒý ḿöðéḿ ļöĝ ƒöŕḿåţ one two three four five]</string>
+    <string name="QshrinkWarningSessionRunning">[Šţöþ šéššîöñ ţö ḿöðîƒý qŠĥŕîñķ šéţţîñĝš one two three four five]</string>
+    <string name="QSHWarningSessionRunning">[Šţöþ šéššîöñ ţö ḿöðîƒý qŠĤ šéţţîñĝš one two three four five]</string>
+    <string name="LogkitVersion">"[qŢÎ-Ļöĝķîţ νéŕšîöñ: »%1$s«
+Çöñƒîĝ νéŕšîöñ: »%2$s«
+ĻĶÇöŕé νéŕšîöñ: »%3$s«
+qûåļçöḿḿ Ţéçĥñöļöĝîéš, Îñç. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen]"</string>
+    <string name="Version">"[νéŕšîöñ »%1$s«
+qûåļçöḿḿ Ţéçĥñöļöĝîéš, Îñç. one two three four five]"</string>
+    <string name="RunCommand">[Ŕûñ Çöḿḿåñð one two]</string>
+    <string name="RunningCommand">[Ŕûññîñĝ çöḿḿåñð one two three]</string>
+    <string name="NumChunks">[»%1$s« çĥûñķš one two]</string>
+    <string name="ExitMsg">"[Åļļ šéššîöñš åñð ļöĝš ŵîļļ šţöþ ŕûññîñĝ. 
+
+Ţö ļéåVé Qţî-ļöĝķîţ åñð ķééþ šéššîöñš, ļöĝš öŕ ñöţîƒîçåţîöñš ŕûññîñĝ, ûšé ĥöḿé ɓûţţöñ ţö ḿîñîḿîžé.
+
+ one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four]"</string>
+    <string name="ExitAppTitle">[Éхîţ Qţî-ļöĝķîţ¿ one two three]</string>
+    <string name="ExitControllerMsg">"[Åļļ ûþļöåðš ŵîļļ šţöþ. 
+
+Ţö ļéåVé Qţî-ļöĝķîţ-çöñţŕöļļéŕ, ɓûţ ķééþ åļļ ļöĝĝîñĝ åñð ûþļöåðš åçţîVé, ûšé ĥöḿé ɓûţţöñ ţö ḿîñîḿîžé.
+
+ one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one]"</string>
+    <string name="ExitControllerAppTitle">[Éхîţ Qţî-ļöĝķîţ-çöñţŕöļļéŕ¿ one two three four]</string>
+    <string name="ExitAppButton">[É×ÎŢ one two]</string>
+    <string name="NoExitButton">[ÐÖ ÑÖŢ É×ÎŢ one two]</string>
+    <string name="ZipProgress">[»%1$s« öƒ »%2$s« ƒîļéš žîþþéð one two three]</string>
+    <string name="ContinueButton">[ÇÖÑŢÎÑÛÉ one two]</string>
+    <string name="PackageButton">[ÞÅÇĶÅĜÉ one two]</string>
+    <string name="Name">[Ñåḿé one two]</string>
+    <string name="StorageLocation">[Šţöŕåĝé ļöçåţîöñ one two three]</string>
+    <string name="Size">[Šîžé one two]</string>
+    <string name="TimeElapsed">[Ţîḿé éļåþšéð one two three]</string>
+    <string name="Description">[Ðéšçŕîþţîöñ one two]</string>
+    <string name="PackageHint">[Éñţéŕ öþţîöñåļ ţéхţ ĥéŕé one two three four]</string>
+    <string name="ProgressSpinnerTitle">[Þåçķåĝîñĝ îñ þŕöĝŕéšš one two three]</string>
+    <string name="ProgressSpinnerPackaging">"[Þåçķåĝîñĝ:  one two]"</string>
+    <string name="ProgressSpinnerCreating">[Çŕéåţîñĝ þåçķåĝé one two three]</string>
+    <string name="DiscardButton">[ÐÎŠÇÅŔÐ one two]</string>
+    <string name="HideButton">[ĤÎÐÉ one two]</string>
+    <string name="ExitErrorButton">[É×ÎŢ one two]</string>
+    <string name="SubmitButton">[ŠÛβḾÎŢ one two]</string>
+    <string name="RegStatusHeading">"[Ŕéĝîšţŕåţîöñ Šţåţûš:  one two three]"</string>
+    <string name="ZipButton">[Žîþ one]</string>
+    <string name="ZippingSpinnerTitle">[Žîþþîñĝ îñ þŕöĝŕéšš one two three]</string>
+    <string name="ZippingSpinnerPackaging">"[Žîþþîñĝ:  one two]"</string>
+    <string name="ActiveLogs">"[ÅçţîVé Ļöĝš:  one two three]"</string>
+    <string name="ActiveTriggers">"[ÅçţîVé Ţŕîĝĝéŕš:  one two three]"</string>
+    <string name="CurrentDeviceGroupHeading">"[Çûŕŕéñţ ÐéVîçé Ĝŕöûþ:  one two three]"</string>
+    <string name="DeviceGroupPrompt">"[Šéļéçţ Ñéŵ ÐéVîçé Ĝŕöûþ:  one two three four]"</string>
+    <string name="ConnectionInfoHeading">[Ûþļöåðéŕ Îñƒöŕḿåţîöñ: one two three]</string>
+    <string name="ConnectionHeading">[Çöññéçţîöñ: one two]</string>
+    <string name="ThroughputHeading">[Ţĥŕöûĝĥþûţ: one two]</string>
+    <string name="QueuedFilesHeading">[qûéûéð ƒîļéš: one two three]</string>
+    <string name="IncludeQshrink">[Îñçļûðé îñ éVéŕý þåçķåĝé one two three four]</string>
+    <string name="ExcludeQshrink">[Éхçļûðé ƒŕöḿ þåçķåĝéš one two three]</string>
+    <string name="ControlledMode">[Çļîéñţ îš îñ çöñţŕöļļéð ḿöðé one two three four]</string>
+    <string name="LaunchController">[Ļåûñçĥ Çöñţŕöļļéŕ one two three]</string>
+    <string name="Logkit">[Ļöĝķîţ: one two]</string>
+    <string name="Uploader">[Ûþļöåðéŕ: one two]</string>
+    <string name="Launch">[Ļåûñçĥ one two]</string>
+    <string name="DiableControlled">[Ŕéļéåšé çöñţŕöļ one two three]</string>
+    <string name="RunningTitle">[Ļöĝĝîñĝ šéššîöñ îš ŕûññîñĝ one two three four]</string>
+    <string name="RunningText">[Ţåþ ƒöŕ ðéţåîļš, öŕ þŕéšš ɓûţţöñ ţö šţöþ one two three four five]</string>
+    <string name="StoppedTitle">[Ļöĝĝîñĝ šéššîöñ îš šţöþþéð one two three four]</string>
+    <string name="StoppedText">[Ţåþ ƒöŕ ðéţåîļš, öŕ þŕéšš ɓûţţöñ ţö šţåŕţ one two three four five]</string>
+    <string name="Unsupported">[ (Ûñšûþþöŕţéð) one two three]</string>
+    <string name="Flush">[Fļûšĥ one two]</string>
+    <string name="Flushing">[Fļûšĥîñĝ one two]</string>
+    <string name="Enable">[Éñåɓļé one two]</string>
+    <string name="Disable">[Ðîšåɓļé one two]</string>
+    <string name="ChunkHint">[Ðûŕîñĝ ļöĝ šéššîöñ, åļļ ļöĝ çĥûñķš åŕé šåVéð one two three four five six]</string>
+    <string name="None">[Ñöñé one two]</string>
+    <string name="PkgZippingError">[Éŕŕöŕ žîþþîñĝ ƒîļéš one two three]</string>
+    <string name="PkgDeleted">[Ðéļéţéð one two]</string>
+    <string name="PkgCopyError">[Éŕŕöŕ çöþýîñĝ ƒîļéš one two three]</string>
+    <string name="PkgLocked">[Éхţéŕñåļļý ļöçķéð one two three]</string>
+    <string name="PkgCreateError">[Éŕŕöŕ çŕéåţîñĝ Þåçķåĝé.хḿļ one two three four]</string>
+    <string name="PkgModified">[Éхţéŕñåļļý ḿöðîƒîéð one two three]</string>
+</resources>

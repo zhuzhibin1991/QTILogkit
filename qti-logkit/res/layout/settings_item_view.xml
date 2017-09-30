@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:textSize="14.0sp" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/SettingItemSwitch" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:thumb="@drawable/switch_thumb" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:track="@drawable/switch_track" android:switchMinWidth="40.0dip" />
+    <Button android:textSize="14.0sp" android:gravity="center" android:id="@id/SettingItemButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="14.0sp" android:gravity="center|left" android:id="@id/SettingItemButtonText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_toLeftOf="@id/SettingItemButton" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/HomeControlBar" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/StorageCard" android:background="@drawable/card_border" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:onClick="onClick">
+            <LinearLayout android:orientation="horizontal" android:id="@id/DiskLayout" android:background="@drawable/storage_border" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="100.0" android:layout_weight="3.0">
+                <LinearLayout android:id="@id/StorageUsed" android:background="@drawable/storage_used_border" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="vertical" android:id="@id/StorageTextLayout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+                <ImageView android:id="@id/StorageImage" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/save_24" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="vertical" android:id="@id/StorageTextLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/StorageImage">
+                    <TextView android:textStyle="bold" android:textColor="#ff2a2b2c" android:id="@id/StorageSize" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/defaultTextSize" />
+                    <TextView android:textColor="#ff2a2b2c" android:id="@id/StorageLocation" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/defaultTextSize" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/SessionCard" android:background="@drawable/card_border" android:clickable="true" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="5.0" android:layout_weight="1.0" android:onClick="onClick">
+            <LinearLayout android:orientation="horizontal" android:id="@id/SessionStatus" android:background="@drawable/session_border" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0" />
+            <RelativeLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/SessionTextLayoutParent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+                <LinearLayout android:id="@id/StartCircle" android:background="@drawable/start_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-30.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                <LinearLayout android:orientation="vertical" android:id="@id/SessionTextLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                    <TextView android:textStyle="bold" android:textColor="#ff2a2b2c" android:id="@id/SessionClock" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/defaultTextSize" />
+                    <TextView android:textColor="#ff2a2b2c" android:id="@id/SessionStatusText" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/defaultTextSize" />
+                    <TextView android:textColor="#ff2a2b2c" android:id="@id/SessionSize" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/defaultTextSize" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/HomeDivider" android:background="@drawable/card_border" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textStyle="bold" android:textColor="#ff2a2b2c" android:gravity="center|left" android:id="@id/HomeDividerText" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="5.0dip" android:layout_weight="1.0" style="@style/defaultTextSize" />
+    </LinearLayout>
+    <ScrollView android:orientation="vertical" android:id="@id/HomeBody" android:background="@drawable/card_border" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="3.0" android:layout_below="@id/HomeDivider">
+        <ListView android:orientation="vertical" android:id="@id/BodyListView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_border" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <LinearLayout android:id="@id/StoragePageBlock" android:background="@drawable/storage_used_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+        <LinearLayout android:background="@drawable/storage_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-30.0dip" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip" android:layout_alignParentTop="true">
+            <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/StorageTypeText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/StorageLargeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:lineSpacingExtra="5.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <TextView android:textSize="14.0sp" android:textColor="#ff5b5e60" android:layout_gravity="left" android:id="@id/StorageLocationText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+        <Spinner android:textSize="16.0sp" android:layout_gravity="left" android:id="@id/StorageSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff5b5e60" android:layout_gravity="left" android:id="@id/StorageNameText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+        <TextView android:textSize="12.0sp" android:layout_gravity="left" android:id="@id/StoragePathValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

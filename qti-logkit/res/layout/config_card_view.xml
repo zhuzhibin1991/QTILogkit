@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/submenuCard" android:background="@drawable/card_border" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/headingImage" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/network_black_24" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@id/headingSwitch" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/headingImage" android:layout_alignParentRight="true" />
+    <ListView android:orientation="vertical" android:id="@id/ConfigListView" android:paddingLeft="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/headingImage" />
+</RelativeLayout>

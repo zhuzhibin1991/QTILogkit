@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="md_btn">false</item>
+    <item type="id" name="ap_btn">false</item>
+    <item type="id" name="tcpdump_btn">false</item>
+    <item type="id" name="ramdump_btn">false</item>
+    <item type="id" name="uploader_btn">false</item>
+    <item type="id" name="save_tbn">false</item>
+    <item type="id" name="bug_uninstall">false</item>
+    <item type="id" name="version_txt">false</item>
+</resources>

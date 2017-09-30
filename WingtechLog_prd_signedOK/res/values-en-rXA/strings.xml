@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">[ŴîñĝţéçĥĻöĝ one two]</string>
+    <string name="ap_log_start">[çåţçĥ ÅÞ Ļöĝ one two]</string>
+    <string name="ap_log_stop">[ÅÞ ļöĝ çåţçĥîñĝ... one two three]</string>
+    <string name="md_log_start">[çåţçĥ Ḿöðéḿ Ļöĝ one two three]</string>
+    <string name="md_log_stop">[Ḿöðéḿ ļöĝ çåţçĥîñĝ... one two three]</string>
+    <string name="save_logs">[ŠåVé ļöĝš one two]</string>
+    <string name="diag_confirm">[Ýéš one]</string>
+    <string name="save_log">[ŠåVé Ļöĝ one two]</string>
+    <string name="saveing">[ŠåVîñĝ Ļöĝ... one two]</string>
+    <string name="diag_negative">[Ñö one]</string>
+    <string name="diag_message">[Çĥéçķ ñö ðîåĝ çöñƒîĝ ƒîļé,ðö ýöû åĝŕéé ûšîñĝ ðéƒåûļţ¿(ýöû çåñ þûţ ýöûŕ ðîåĝ.çƒĝ ţö /šðçåŕð) one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen]</string>
+    <string name="ramdump_enable">[ŔÅḾÐÛḾÞ ÉÑÅβĻÉ one two three]</string>
+    <string name="ramdump_disable">[ŔÅḾÐÛḾÞ ÐÎŠÅβĻÉ one two three]</string>
+    <string name="tcpdump_start">[ţçþðûḿþ one two]</string>
+    <string name="tcpdump_stop">[ţçþðûḿþîñĝ... one two]</string>
+    <string name="logupload_work">[ļöĝûþļöåð åçţîVé one two three]</string>
+    <string name="logupload_working">[ļöĝûþļöåð ðé-åçţîVé one two three]</string>
+    <string name="logupload_uninstall">[ÛñÎñšţåļļ Ŕéþöŕţ one two three]</string>
+</resources>

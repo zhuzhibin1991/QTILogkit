@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/Viewport" android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/NavigationBar" android:background="#ffbbbbbb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff2a2b2c" android:layout_gravity="center" android:id="@id/HomeButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/home_black_24" android:layout_weight="1.0" style="?android:attr/borderlessButtonStyle" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/ConfigureButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/config_white_24" android:layout_weight="1.0" style="?android:attr/borderlessButtonStyle" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/ManageButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/manage_white_24" android:layout_weight="1.0" style="?android:attr/borderlessButtonStyle" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/ExitButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/close_24" android:layout_weight="1.0" style="?android:attr/borderlessButtonStyle" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/NavigationBar">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/WindowBody" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+</RelativeLayout>

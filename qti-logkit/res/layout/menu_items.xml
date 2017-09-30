@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/settings_24" android:id="@id/settings" android:visible="false" android:title="Settings" android:showAsAction="always" />
+    <item android:icon="@drawable/reset_24" android:id="@id/restore" android:visible="false" android:title="Restore Defaults" android:showAsAction="always" />
+    <item android:icon="@drawable/list_white_24" android:id="@id/configLogView" android:visible="false" android:title="Log View" android:showAsAction="always" />
+    <item android:icon="@drawable/scenario_white_24" android:id="@id/configScenarioView" android:visible="false" android:title="Scenario View" android:showAsAction="always" />
+    <item android:icon="@drawable/delete_24" android:id="@id/delete" android:visible="false" android:title="Delete" android:showAsAction="always" />
+    <item android:icon="@drawable/select_all_24" android:id="@id/selectall" android:visible="false" android:title="Select All" android:showAsAction="always" />
+</menu>

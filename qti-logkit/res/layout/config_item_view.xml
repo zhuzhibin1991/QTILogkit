@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:textSize="14.0sp" android:id="@id/ConfigItemSwitch" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:thumb="@drawable/switch_thumb" android:layout_alignParentLeft="true" android:track="@drawable/switch_track" android:switchMinWidth="40.0dip" />
+    <TextView android:textSize="12.0sp" android:textStyle="italic" android:id="@id/ConfigItemHint" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/ConfigItemSwitch" />
+    <Spinner android:textSize="12.0sp" android:textStyle="italic" android:id="@id/CustomDMCSpinner" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ConfigItemHint" />
+</RelativeLayout>

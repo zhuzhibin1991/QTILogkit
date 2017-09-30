@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="UnableToReadConfig">
+        <item>Invalid config file</item>
+        <item>Invalid config file: %1$s</item>
+        <item>"qti-logkit has encountered a corrupt config file.
+
+Please update the file:
+
+%1$s"</item>
+    </string-array>
+    <string-array name="UnableToReadCommand">
+        <item>Invalid command file</item>
+        <item>Invalid command file: %1$s</item>
+        <item>"qti-logkit has encountered a corrupt command file.
+
+Please update the firmware or client:
+
+ %1$s"</item>
+    </string-array>
+    <string-array name="PackageError">
+        <item></item>
+        <item>Package error: %1$s</item>
+        <item></item>
+    </string-array>
+    <string-array name="UnableToStartSession">
+        <item>Invalid Storage Location</item>
+        <item>Unable to start session because selected storage is full, missing or qti-logkit does not have permission to access</item>
+        <item>"Unable to start session because selected storage is full, missing or qti-logkit does not have permission to access
+
+"</item>
+    </string-array>
+    <string-array name="LowSpace">
+        <item></item>
+        <item>Warning: Selected storage location only has %1$s available</item>
+        <item></item>
+    </string-array>
+    <string-array name="SessionStoppedNoSpace">
+        <item>Invalid Storage Location</item>
+        <item>Logging session was forced to stop because selected storage location is full, missing or qti-logkit does not have permission to access</item>
+        <item>"Logging session was forced to stop because selected storage location is full, missing or qti-logkit does not have permission to access
+
+"</item>
+    </string-array>
+    <string-array name="ContinuousLogsStoppedNoSpace">
+        <item>Invalid Storage Location</item>
+        <item>Continuous logs were stopped because selected storage location is full, missing or qti-logkit does not have permission to access</item>
+        <item>"Continuous logs were stopped because selected storage location is full, missing or qti-logkit does not have permission to access
+
+"</item>
+    </string-array>
+    <string-array name="CommandFailure">
+        <item>Command Failure</item>
+        <item>Failed to execute command %1$s</item>
+        <item>"qti-logkit failed to execute command %1$s
+
+Logging will continue, but will not include logs for this command.
+
+"</item>
+    </string-array>
+    <string-array name="ReadFailure">
+        <item>Read Failure</item>
+        <item>Failed to read file %1$s</item>
+        <item>"qti-logkit failed to read file for %1$s
+
+Logging will continue, but will not include logs for this file.
+
+"</item>
+    </string-array>
+    <string-array name="DateTooOld">
+        <item>Date invalid</item>
+        <item>Device date is set incorrectly, please update</item>
+        <item>"Device date is set incorrectly (before 1/1/2016)
+
+Please update the device date
+
+"</item>
+    </string-array>
+    <string-array name="BadIcon">
+        <item>Bad icon</item>
+        <item>Missing or bad icon file %1$s</item>
+        <item>"Missing or bad icon file
+
+%1$s"</item>
+    </string-array>
+    <string-array name="AuthError">
+        <item>Bad username/password</item>
+        <item>Invalid username/password, please try again</item>
+        <item>Invalid username/password, please try again</item>
+    </string-array>
+    <string-array name="UpdatedConfig">
+        <item>Config updated</item>
+        <item>Config updated, please update</item>
+        <item>Config updated, click to reload the configurations</item>
+    </string-array>
+    <string-array name="DroppedDiagPackets">
+        <item>Warning</item>
+        <item>Diag packets dropped</item>
+        <item>Diag packets are being dropped due to high throughput</item>
+    </string-array>
+    <string-array name="DiagTimeout">
+        <item>Warning</item>
+        <item>Diag response timed out</item>
+        <item>"Diag response was not received in the expected time limit.  Diag log may not have sufficient information to debug"</item>
+    </string-array>
+</resources>
